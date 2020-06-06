@@ -19,19 +19,20 @@ const About = ({ id, go}) => (
 		<Epic>
         <Tabbar>
 
-          <TabbarItem onClick={go} data-to="discipline">
-            <Icon28ListOutline/>
+          <TabbarItem onClick={go} data-to="discipline" text="Направления">
+            <Icon28ListOutline />
+			{/* style={{color: 'white'}} */}
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="about">
+          <TabbarItem onClick={go} data-to="about" text="Проекты">
             <Icon28ServicesOutline/>
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="about">
+          <TabbarItem onClick={go} data-to="about" text="Достижения">
             <Icon28FireOutline/>
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="about">
+          <TabbarItem onClick={go} data-to="about" text="О нас">
             <Icon36Users3Outline width={32} height={32}/>
           </TabbarItem>
 

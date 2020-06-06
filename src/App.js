@@ -6,10 +6,12 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 import Discipline from './panels/Discipline';
 import About from './panels/About';
+import Project from './panels/Project';
 
 const ROUTES = {
 	DISCIPLINE: 'discipline',
 	ABOUT: 'about',
+	PROJECT: 'project'
 };
 
 const App = () => {
@@ -41,6 +43,7 @@ const App = () => {
 		<View activePanel={activePanel} popout={popout}>
 			<Discipline id='discipline' fetchedUser={fetchedUser} go={go} />
 			<About id='about' go={go} />
+			<Project id='project' go={go} />
 		</View>
 	);
 }

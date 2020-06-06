@@ -18,35 +18,35 @@ const Discipline = ({ id, go}) => (
             <Banner
                 before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
                 header="Front-end разработка"
-                subheader="Обновлено сегодня"
+                subheader="Роман Макуха"
                 actions={<Button>Подробнее</Button>}
             />
 
             <Banner
                 before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
                 header="Web дизайн"
-                subheader="Обновлено сегодня"
+                subheader="Илья Гусаревич"
                 actions={<Button>Подробнее</Button>}
             />
 
             <Banner
                 before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
                 header="Android разработка"
-                subheader="Обновлено сегодня"
+                subheader="Сергей Меньков"
                 actions={<Button>Подробнее</Button>}
             />
 
             <Banner
                 before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
                 header="Графический дизайн"
-                // subheader="Обновлено сегодня"
+                subheader="Name Surname"
                 actions={<Button>Подробнее</Button>}
             /> 
 
             <Banner
                 before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
                 header="Разработка игр"
-                // subheader="Обновлено сегодня"
+                subheader="Алексей Аксёнов"
                 actions={<Button>Подробнее</Button>}
             />                 
         </Group>
@@ -55,10 +55,11 @@ const Discipline = ({ id, go}) => (
         <Tabbar>
 
           <TabbarItem onClick={go} data-to="discipline" text="Направления">
-            <Icon28ListOutline/>
+            <Icon28ListOutline />
+			{/* style={{color: 'white'}} */}
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="about" text="Проекты">
+          <TabbarItem onClick={go} data-to="project" text="Проекты">
             <Icon28ServicesOutline/>
           </TabbarItem>
 
