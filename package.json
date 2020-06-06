@@ -2,7 +2,7 @@
   "name": "kstudioapp",
   "version": "1.0.0",
   "description": "",
-  "homepage": "https://mironpuzanov.github.io/kstudioapp/",
+  "homepage": "https://CLUQIE.github.io/kstudio/",
   "main": "index.js",
   "scripts": {
     "start": "cross-env PORT=10888 HTTPS=true react-scripts start",
