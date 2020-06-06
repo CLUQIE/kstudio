@@ -18,26 +18,18 @@ const Project = ({ id, go}) => (
 
     <Group separator="hide">
       <CardGrid>
-        <Card size="m">
-          <div style={{ height: 400 }} >
+        <Card size="l">
+          <div style={{ height: 600 }} >
             <img src="https://images.unsplash.com/photo-1591393223703-56fe1347ac62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" 
-            style={{height:400, width:300, borderRadius: 10}}/>
+            style={{height:600, width: "100%", borderRadius: 10}}/>
           </div>
          
         </Card>
-        <Card size="m">
-        <div style={{ height: 400 }} >
+        <Card size="l">
+        <div style={{ height: 600 }} >
             <img src=" https://images.unsplash.com/photo-1591430707267-d003a0cbfd16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80" 
-            style={{height:400, width:300, borderRadius: 10}}/>
+            style={{height:600, width: "100%", borderRadius: 10}}/>
           </div>
-        </Card>
-      </CardGrid>
-      <CardGrid>
-        <Card size="m" >
-          <div style={{ height: 400 }} />
-        </Card>
-        <Card size="m">
-          <div style={{ height: 400 }} />
         </Card>
       </CardGrid>
     </Group>
