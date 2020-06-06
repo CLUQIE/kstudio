@@ -19,9 +19,13 @@ const Project = ({ id, go}) => (
     <Group separator="hide">
       <CardGrid>
         <Card size="l">
-          <div style={{ height: 600 }} >
+          <div style={{ height: 600, marginBottom: 100 }}>
             <img src="https://images.unsplash.com/photo-1591393223703-56fe1347ac62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" 
             style={{height:600, width: "100%", borderRadius: 10}}/>
+            <p>
+              Название: название <br/>
+              Автор: Автор
+            </p>
           </div>
          
         </Card>
@@ -46,7 +50,7 @@ const Project = ({ id, go}) => (
             <Icon28ServicesOutline/>
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="about" text="Достижения">
+          <TabbarItem onClick={go} data-to="achievement" text="Достижения">
             <Icon28FireOutline/>
           </TabbarItem>
 

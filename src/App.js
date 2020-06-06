@@ -7,11 +7,14 @@ import '@vkontakte/vkui/dist/vkui.css';
 import Discipline from './panels/Discipline';
 import About from './panels/About';
 import Project from './panels/Project';
+import Achievement from './panels/Achievement';
+
 
 const ROUTES = {
 	DISCIPLINE: 'discipline',
 	ABOUT: 'about',
-	PROJECT: 'project'
+	PROJECT: 'project',
+	ACHIEVEMENT: 'achievement'
 };
 
 const App = () => {
@@ -42,8 +45,9 @@ const App = () => {
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Discipline id='discipline' fetchedUser={fetchedUser} go={go} />
-			<About id='about' go={go} />
+			<About id='about' go={go} fetchedUser={fetchedUser} />
 			<Project id='project' go={go} />
+			<Achievement id='achievement' go={go} />
 		</View>
 	);
 }

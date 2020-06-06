@@ -63,7 +63,7 @@ const Discipline = ({ id, go}) => (
             <Icon28ServicesOutline/>
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="about" text="Достижения">
+          <TabbarItem onClick={go} data-to="achievement" text="Достижения">
             <Icon28FireOutline/>
           </TabbarItem>
 
