@@ -17,35 +17,35 @@ const Discipline = ({ id, go}) => (
 		<Group header={<Header mode="secondary"></Header>}>
             <Banner
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
-                header="Front-end разработка"
+                header="Frontend"
                 subheader="Роман Макуха"
                 actions={<Button onClick={go} data-to="frontend">Подробнее</Button>}
             />
 
             <Banner
-                before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
-                header="Web дизайн"
+                before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
+                header="Web-designe"
                 subheader="Илья Гусаревич"
                 actions={<Button>Подробнее</Button>}
             />
 
             <Banner
-                before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
-                header="Android разработка"
+                before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1588690154757-badf4644190f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80" />}
+                header="Android Dev (Kotlin)"
                 subheader="Сергей Меньков"
                 actions={<Button>Подробнее</Button>}
             />
 
             <Banner
-                before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
-                header="Графический дизайн"
+                before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2253&q=80" />}
+                header="Graphic Design"
                 subheader="Name Surname"
                 actions={<Button>Подробнее</Button>}
             /> 
 
             <Banner
-                before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
-                header="Разработка игр"
+                before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1556438064-2d7646166914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
+                header="Game Dev"
                 subheader="Алексей Аксёнов"
                 actions={<Button>Подробнее</Button>}
             />  
