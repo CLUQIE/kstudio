@@ -93,7 +93,7 @@ const Project = ({ id, go}) => (
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
                 src="https://sun9-58.userapi.com/c858416/v858416034/1b1ce0/D5tRB7lhD14.jpg"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2019" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
                       Чайный клуб
                     </div>
@@ -110,9 +110,9 @@ const Project = ({ id, go}) => (
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
                 src="https://sun9-61.userapi.com/c851036/v851036858/1ebd9e/nmVNARc-5sc.jpg"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2019" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
-                      Fusion - киберспортивный клуб
+                      Fusion <br/> Киберспорт
                     </div>
                   </SimpleCell>
                     

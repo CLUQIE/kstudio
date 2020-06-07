@@ -85,7 +85,7 @@ const Webdesigne = ({ id, go}) => (
              after={<Icon28UserAddOutline fill="#F84004"/>}
              caption="Чат для участников"
             >
-             K-studio Web-designe
+             K-studio Web-design
              </RichCell>
             </Div>
           </Card>
