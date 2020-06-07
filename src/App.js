@@ -9,6 +9,7 @@ import Project from './panels/Project';
 import Achievement from './panels/Achievement';
 import About from './panels/About';
 import Frontend from './panels/Frontend';
+import Webdesigne from './panels/Webdesigne';
 
 
 const ROUTES = {
@@ -16,7 +17,8 @@ const ROUTES = {
 	PROJECT: 'project',
 	ACHIEVEMENT: 'achievement',
 	ABOUT: 'about',
-	FRONTEND: 'frontend'
+	FRONTEND: 'frontend',
+	WEBDESIGNE: 'webdesigne'
 };
 
 const App = () => {
@@ -26,11 +28,7 @@ const App = () => {
 
 	useEffect(() => {
 		bridge.subscribe(({ detail: { type, data }}) => {
-			if (type === 'VKWebAppUpdateConfig') {
-				const schemeAttribute = document.createAttribute('scheme');
-				schemeAttribute.value = data.scheme ? data.scheme : 'client_light';
-				document.body.attributes.setNamedItem(schemeAttribute);
-			}
+
 		});
 		async function fetchData() {
 			const user = await bridge.send('VKWebAppGetUserInfo');
@@ -51,6 +49,7 @@ const App = () => {
 			<Achievement id='achievement' go={go} />
 			<About id='about' go={go} fetchedUser={fetchedUser} />
 			<Frontend id='frontend' go={go} fetchedUser={fetchedUser}/>
+			<Webdesigne id='webdesigne' go={go}/>
 		</View>
 	);
 }

@@ -26,7 +26,7 @@ const Discipline = ({ id, go}) => (
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
                 header="Web-designe"
                 subheader="Илья Гусаревич"
-                actions={<Button>Подробнее</Button>}
+                actions={<Button onClick={go} data-to="webdesigne">Подробнее</Button>}
             />
 
             <Banner
