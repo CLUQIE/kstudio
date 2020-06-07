@@ -10,6 +10,7 @@ import Achievement from './panels/Achievement';
 import About from './panels/About';
 import Frontend from './panels/Frontend';
 import Webdesigne from './panels/Webdesigne';
+import Android from './panels/Android';
 
 
 const ROUTES = {
@@ -18,7 +19,8 @@ const ROUTES = {
 	ACHIEVEMENT: 'achievement',
 	ABOUT: 'about',
 	FRONTEND: 'frontend',
-	WEBDESIGNE: 'webdesigne'
+	WEBDESIGNE: 'webdesigne',
+	ANDROID: 'android'
 };
 
 const App = () => {
@@ -50,6 +52,7 @@ const App = () => {
 			<About id='about' go={go} fetchedUser={fetchedUser} />
 			<Frontend id='frontend' go={go} fetchedUser={fetchedUser}/>
 			<Webdesigne id='webdesigne' go={go}/>
+			<Android id='android' go={go}/>
 		</View>
 	);
 }

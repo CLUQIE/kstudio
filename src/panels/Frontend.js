@@ -54,7 +54,7 @@ const Frontend = ({ id, go, fetchedUser}) => (
              before={<Avatar style={{objectFit: 'cover'}} size={72} src={roma} />}
              caption={
                     <React.Fragment>
-                        Frontend разработчик, 
+                        Frontend-разработчик, 
                         <br />
                         студент 2 курса
                     </React.Fragment>

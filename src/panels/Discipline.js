@@ -33,7 +33,7 @@ const Discipline = ({ id, go}) => (
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1588690154757-badf4644190f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80" />}
                 header="Android Dev (Kotlin)"
                 subheader="Сергей Меньков"
-                actions={<Button>Подробнее</Button>}
+                actions={<Button onClick={go} data-to="android">Подробнее</Button>}
             />
 
             <Banner
@@ -44,6 +44,7 @@ const Discipline = ({ id, go}) => (
             /> 
 
             <Banner
+				style={{marginBottom: 100}}
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1556438064-2d7646166914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
                 header="Game Dev"
                 subheader="Алексей Аксёнов"

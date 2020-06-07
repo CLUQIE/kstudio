@@ -13,12 +13,12 @@ import Icon28UserOutline from '@vkontakte/icons/dist/28/user_outline';
 import frontendimg from '../img/frontend.jpg';
 
 const avatars = {
-    ilya: 'https://sun1-15.userapi.com/ywnSfhthP5qasNqqiJhqt5S6gf2iWoUU82HlKA/nhekiizZ9ic.jpg',
+    sergey: 'https://sun9-29.userapi.com/c858328/v858328195/48393/7TXFFQ1D5Fs.jpg',
    
 };
   
 
-const Webdesigne = ({ id, go}) => (
+const Android = ({ id, go}) => (
 	<Panel id={id}>
 		<PanelHeader left={<PanelHeaderBack onClick={go} data-to="discipline"/>}>
 			K-studio
@@ -29,14 +29,15 @@ const Webdesigne = ({ id, go}) => (
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
-                src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"/>
+                src="https://developer.android.com/courses/images/android-for-developers.svg"/>
                 <Div>
                 <Header mode="secondary">О НАПРАВЛЕНИИ</Header>
 
-                <Headline  style={{ fontSize:17, fontWeight: 600, marginLeft: 12, marginBottom: 6}}>Web-design</Headline>
+                <Headline  style={{ fontSize:17, fontWeight: 600, marginLeft: 12, marginBottom: 6}}>Android Dev (Kotlin)</Headline>
 
-                <Text style={{fontSize:15, fontWeight: 'normal', marginLeft: 12}}>Web-design — отрасль веб-разработки и разновидность 
-                дизайна, в задачи которой входит проектирование веб-интерфейсов для сайтов или веб-приложений.</Text>
+                <Text style={{fontSize:15, fontWeight: 'normal', marginLeft: 12}}>Android Development — это процесс, 
+                с помощью которого создаются новые приложения для устройств, работающих под управлением операционной системы Android.
+                Язык программирования  —  Kotlin.</Text>
                 </Div>
             </div>
           </Card>
@@ -53,10 +54,10 @@ const Webdesigne = ({ id, go}) => (
              href={'https://vk.com/g0_0se'}
              target="_blank"
              disabled
-             before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilya']} />}
+             before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['sergey']} />}
              caption={
                     <React.Fragment>
-                        UX/UI Designer, 
+                        Android-разработчик, 
                         <br />
                         студент 3 курса
                     </React.Fragment>
@@ -64,7 +65,7 @@ const Webdesigne = ({ id, go}) => (
              after={<Icon28UserOutline fill="#F84004" />}
              
             >
-             Илья Гусаревич
+             Сергей Меньков
              </RichCell>
             </Div>
           </Card>
@@ -85,7 +86,7 @@ const Webdesigne = ({ id, go}) => (
              after={<Icon28UserAddOutline fill="#F84004"/>}
              caption="Чат для участников"
             >
-             K-studio Web-designe
+             K-studio Android
              </RichCell>
             </Div>
           </Card>
@@ -120,4 +121,4 @@ const Webdesigne = ({ id, go}) => (
 
 
 
-export default Webdesigne;
+export default Android;
