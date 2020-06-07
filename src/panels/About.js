@@ -65,8 +65,8 @@ const About = ({ id, go, fetchedUser }) => (
             <Icon28FireOutline/>
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="about" text="О нас">
-            <Icon36Users3Outline width={32} height={32}/>
+          <TabbarItem style={{color:"#F05C44"}} onClick={go} data-to="about" text="О нас">
+            <Icon36Users3Outline style={{color:"#F05C44"}} width={32} height={32}/>
           </TabbarItem>
 
         </Tabbar>  

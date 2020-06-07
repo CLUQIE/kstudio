@@ -46,8 +46,8 @@ const Achievement = ({ id, go}) => (
             <Icon28ServicesOutline/>
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="achievement" text="Достижения">
-            <Icon28FireOutline/>
+          <TabbarItem style={{color:"#F05C44"}} onClick={go} data-to="achievement" text="Достижения">
+            <Icon28FireOutline style={{color:"#F05C44"}}/>
           </TabbarItem>
 
           <TabbarItem onClick={go} data-to="about" text="О нас">

@@ -97,8 +97,8 @@ const Android = ({ id, go}) => (
 		<Epic>
         <Tabbar>
 
-          <TabbarItem onClick={go} data-to="discipline" text="Направления">
-            <Icon28ListOutline />
+          <TabbarItem style={{color:"#F05C44"}} onClick={go} data-to="discipline" text="Направления">
+            <Icon28ListOutline style={{color:"#F05C44"}} />
           </TabbarItem>
 
           <TabbarItem onClick={go} data-to="project" text="Проекты">

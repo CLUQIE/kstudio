@@ -44,8 +44,8 @@ const Project = ({ id, go}) => (
 			{/* style={{color: 'white'}} */}
           </TabbarItem>
 
-          <TabbarItem onClick={go} data-to="project" text="Проекты">
-            <Icon28ServicesOutline/>
+          <TabbarItem style={{color:"#F05C44"}} onClick={go} data-to="project" text="Проекты">
+            <Icon28ServicesOutline style={{color:"#F05C44"}}/>
           </TabbarItem>
 
           <TabbarItem onClick={go} data-to="achievement" text="Достижения">
