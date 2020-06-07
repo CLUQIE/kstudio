@@ -5,16 +5,18 @@ import ScreenSpinner from '@vkontakte/vkui/dist/components/ScreenSpinner/ScreenS
 import '@vkontakte/vkui/dist/vkui.css';
 
 import Discipline from './panels/Discipline';
-import About from './panels/About';
 import Project from './panels/Project';
 import Achievement from './panels/Achievement';
+import About from './panels/About';
+import Frontend from './panels/Frontend';
 
 
 const ROUTES = {
 	DISCIPLINE: 'discipline',
-	ABOUT: 'about',
 	PROJECT: 'project',
-	ACHIEVEMENT: 'achievement'
+	ACHIEVEMENT: 'achievement',
+	ABOUT: 'about',
+	FRONTEND: 'frontend'
 };
 
 const App = () => {
@@ -45,9 +47,10 @@ const App = () => {
 	return (
 		<View activePanel={activePanel} popout={popout}>
 			<Discipline id='discipline' fetchedUser={fetchedUser} go={go} />
-			<About id='about' go={go} fetchedUser={fetchedUser} />
 			<Project id='project' go={go} />
 			<Achievement id='achievement' go={go} />
+			<About id='about' go={go} fetchedUser={fetchedUser} />
+			<Frontend id='frontend' go={go} fetchedUser={fetchedUser}/>
 		</View>
 	);
 }

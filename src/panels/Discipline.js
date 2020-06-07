@@ -19,7 +19,7 @@ const Discipline = ({ id, go}) => (
                 before={<Avatar size={96} mode="image" src="https://sun9-32.userapi.com/uFzLOK55iY7pC0DHjneEdP9G6gXcXi2Mxj9wVA/wnTmzh_blNM.jpg" />}
                 header="Front-end разработка"
                 subheader="Роман Макуха"
-                actions={<Button>Подробнее</Button>}
+                actions={<Button onClick={go} data-to="frontend">Подробнее</Button>}
             />
 
             <Banner
@@ -48,7 +48,30 @@ const Discipline = ({ id, go}) => (
                 header="Разработка игр"
                 subheader="Алексей Аксёнов"
                 actions={<Button>Подробнее</Button>}
-            />                 
+            />  
+
+			<Banner
+        	mode="image"
+       		size="m"
+			style={{marginBottom: 100}}
+        	header={<span>Game<br />Development</span>}
+        	subheader="Алексей Аксёнов"
+        	background={
+          	<div
+            	style={{
+              	backgroundColor: '#000',
+              	backgroundImage: 'url(https://images.unsplash.com/photo-1556438064-2d7646166914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)',
+              	backgroundPosition: 'right',
+              	backgroundSize: 340,
+              	backgroundRepeat: 'no-repeat',
+				  
+            }}
+          	/>
+        	}
+        	asideMode="dismiss"
+        	actions={<Button mode="primary" size="l">Подробнее</Button>}
+      />
+
         </Group>
 
 		<Epic>

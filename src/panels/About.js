@@ -1,7 +1,7 @@
 import React from 'react';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import { FixedLayout, Tabs, TabsItem, Group,RichCell, SimpleCell, Avatar, Select, Radio, FormLayoutGroup, Textarea, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
+import { FixedLayout, Tabs, Group,RichCell, SimpleCell, Avatar, Select, Radio, FormLayoutGroup, Textarea, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
 import Icon36Users3Outline from '@vkontakte/icons/dist/36/users_3_outline';
 import Icon28FireOutline from '@vkontakte/icons/dist/28/fire_outline';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
@@ -25,6 +25,7 @@ const About = ({ id, go, fetchedUser }) => (
         >
           Мирон Пузанов
         </SimpleCell>
+
 
 		<SimpleCell
           description="Mail.ru Group"
