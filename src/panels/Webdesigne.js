@@ -78,7 +78,7 @@ const Webdesigne = ({ id, go}) => (
             <Div> 
             <Header mode="secondary">БЕСЕДА</Header>
             <RichCell
-             href={'https://vk.me/join/AJQ1d02icBVaq5FUz/pmIyqx'}
+             href={'https://vk.me/join/AJQ1d3HuMBVm7n7xrjEBVsgk'}
              target="_blank"
              disabled
              before={<Avatar size={72} src={frontendimg} />}

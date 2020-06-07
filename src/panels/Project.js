@@ -34,7 +34,94 @@ const Project = ({ id, go}) => (
             </div>
           </Card>
         </CardGrid>
-        </Group>
+
+        <CardGrid>
+          <Card size="l" mode="shadow">
+            <div >
+                <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+                src="https://i.imgur.com/UgbMtVT.png"/>
+                <Div>
+                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                    <div style={{display: 'flex'}}>
+                      K-studio team 
+                      <Icon16Fire style={{marginTop: 3, marginLeft: 5}} fill="#F05C44"/> 
+                    </div>
+                  </SimpleCell>
+                    
+                </Div>
+            </div>
+          </Card>
+        </CardGrid>
+
+        <CardGrid>
+          <Card size="l" mode="shadow">
+            <div >
+                <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+                src="https://i.imgur.com/CJdt1fQ.png"/>
+                <Div>
+                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                    <div style={{display: 'flex'}}>
+                      K-studio Server 
+                    </div>
+                  </SimpleCell>
+                    
+                </Div>
+            </div>
+          </Card>
+        </CardGrid>
+
+        <CardGrid>
+          <Card size="l" mode="shadow">
+            <div >
+                <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+                src="https://sun9-5.userapi.com/c858336/v858336273/18c6fc/rtNb-TKZ1EY.jpg"/>
+                <Div>
+                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                    <div style={{display: 'flex'}}>
+                      Акселератор
+                    </div>
+                  </SimpleCell>
+                    
+                </Div>
+            </div>
+          </Card>
+        </CardGrid>
+
+        <CardGrid>
+          <Card size="l" mode="shadow">
+            <div >
+                <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+                src="https://sun9-58.userapi.com/c858416/v858416034/1b1ce0/D5tRB7lhD14.jpg"/>
+                <Div>
+                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                    <div style={{display: 'flex'}}>
+                      Чайный клуб
+                    </div>
+                  </SimpleCell>
+                    
+                </Div>
+            </div>
+          </Card>
+        </CardGrid>
+        
+        <CardGrid style={{marginBottom: 100}}>
+          <Card size="l" mode="shadow">
+            <div >
+                <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+                src="https://sun9-61.userapi.com/c851036/v851036858/1ebd9e/nmVNARc-5sc.jpg"/>
+                <Div>
+                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                    <div style={{display: 'flex'}}>
+                      Fusion - киберспортивный клуб
+                    </div>
+                  </SimpleCell>
+                    
+                </Div>
+            </div>
+          </Card>
+        </CardGrid>
+
+      </Group>
 
 		<Epic>
         <Tabbar>
