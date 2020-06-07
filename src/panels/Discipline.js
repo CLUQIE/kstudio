@@ -61,8 +61,8 @@ const Discipline = ({ id, go}) => (
             	style={{
               	backgroundColor: '#000',
               	backgroundImage: 'url(https://images.unsplash.com/photo-1556438064-2d7646166914?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80)',
-              	backgroundPosition: 'right',
-              	backgroundSize: 340,
+              	backgroundPosition: 'center',
+              	backgroundSize: 400,
               	backgroundRepeat: 'no-repeat',
 				  
             }}

@@ -49,8 +49,9 @@ const Frontend = ({ id, go, fetchedUser}) => (
             <RichCell
              disabled
              before={<Avatar size={72} src={fetchedUser.photo_200} />}
+             caption="Frontend разработчик студент 3 курса"
              after={<Icon28UserOutline fill="#F84004"/>}
-             caption="Frontend разработчик, студент 3 курса"
+             
             >
              Мирон Пузанов
              </RichCell>
