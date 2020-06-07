@@ -25,18 +25,18 @@ const Frontend = ({ id, go, fetchedUser}) => (
         <Group separator="hide" >
         <CardGrid>
           <Card size="l" mode="shadow">
-            <Div >
+            <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
                 src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80"/>
-
+                <Div>
                 <Header mode="secondary">О НАПРАВЛЕНИИ</Header>
 
-                <Headline  style={{ fontSize:17, fontWeight: 600, marginLeft: 12, marginBottom: 4}}>Frontend</Headline>
+                <Headline  style={{ fontSize:17, fontWeight: 600, marginLeft: 12, marginBottom: 6}}>Frontend</Headline>
 
                 <Text style={{fontSize:15, fontWeight: 'normal', marginLeft: 12}}>Front-end веб-разработка - это практика преобразования данных в графический интерфейс с использованием HTML, CSS и JavaScript, 
                 чтобы пользователи могли просматривать и взаимодействовать с этими данными.</Text>
-
-            </Div>
+                </Div>
+            </div>
           </Card>
         </CardGrid>
         </Group>
