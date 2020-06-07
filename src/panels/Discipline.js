@@ -39,7 +39,7 @@ const Discipline = ({ id, go}) => (
             <Banner
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2253&q=80" />}
                 header="Graphic Design"
-                subheader="Name Surname"
+                subheader="Anastasia Glass"
                 actions={<Button>Подробнее</Button>}
             /> 
 

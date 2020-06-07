@@ -48,9 +48,17 @@ const Frontend = ({ id, go, fetchedUser}) => (
             <Div> 
             <Header mode="secondary">ПРЕПОДАВАТЕЛЬ</Header>
             <RichCell
+             href={'https://vk.com/id' + 214415158}
+             target="_blank"
              disabled
              before={<Avatar style={{objectFit: 'cover'}} size={72} src={roma} />}
-             caption="Студент 2 курса"
+             caption={
+                    <React.Fragment>
+                        Frontend разработчик, 
+                        <br />
+                        студент 2 курса
+                    </React.Fragment>
+                    }
              after={<Icon28UserOutline fill="#F84004" />}
              
             >
@@ -61,13 +69,15 @@ const Frontend = ({ id, go, fetchedUser}) => (
         </CardGrid>
         </Group>
 
-
+       
         <Group separator="hide" style={{marginBottom: 100}}>
         <CardGrid>
           <Card size="l" mode="shadow">
             <Div> 
             <Header mode="secondary">БЕСЕДА</Header>
             <RichCell
+             href={'https://vk.me/join/AJQ1d02icBVaq5FUz/pmIyqx'}
+             target="_blank"
              disabled
              before={<Avatar size={72} src={frontendimg} />}
              after={<Icon28UserAddOutline fill="#F84004"/>}
