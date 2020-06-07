@@ -51,7 +51,7 @@ const Android = ({ id, go}) => (
             <Div> 
             <Header mode="secondary">ПРЕПОДАВАТЕЛЬ</Header>
             <RichCell
-             href={'https://vk.com/g0_0se'}
+             href={'https://vk.com/s.menk.java'}
              target="_blank"
              disabled
              before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['sergey']} />}

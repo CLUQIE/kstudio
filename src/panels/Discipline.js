@@ -36,7 +36,7 @@ const Discipline = ({ id, go}) => (
                 actions={<Button onClick={go} data-to="android">Подробнее</Button>}
             />
 
-            <Banner
+            {/* <Banner
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1497091071254-cc9b2ba7c48a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2253&q=80" />}
                 header="Graphic Design"
                 subheader="Anastasia Glass"
@@ -49,7 +49,7 @@ const Discipline = ({ id, go}) => (
                 header="Game Dev"
                 subheader="Алексей Аксёнов"
                 actions={<Button>Подробнее</Button>}
-            />  
+            />   */}
 
         </Group>
 

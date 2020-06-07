@@ -1,12 +1,12 @@
 import React from 'react';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import { FixedLayout, Tabs, TabsItem, Card,Group, Input, Radio, CardGrid, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
+import { Header, Div, Headline, Card,Group, Text, SimpleCell, CardGrid, Epic, Tabbar, TabbarItem,Button} from '@vkontakte/vkui';
 import Icon36Users3Outline from '@vkontakte/icons/dist/36/users_3_outline';
 import Icon28FireOutline from '@vkontakte/icons/dist/28/fire_outline';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
 import Icon28ListOutline from '@vkontakte/icons/dist/28/list_outline';
-
+import Icon16Fire from '@vkontakte/icons/dist/16/fire';
 
 
 const Project = ({ id, go}) => (
@@ -16,27 +16,25 @@ const Project = ({ id, go}) => (
 		</PanelHeader>
 
 
-    <Group separator="hide">
-      <CardGrid>
-        <Card size="l">
-          <div style={{ height: 600, marginBottom: 100 }}>
-            <img src="https://images.unsplash.com/photo-1591393223703-56fe1347ac62?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" 
-            style={{height:600, width: "100%", borderRadius: 10}}/>
-            <p>
-              Название: название <br/>
-              Автор: Автор
-            </p>
-          </div>
-         
-        </Card>
-        <Card size="l">
-        <div style={{ height: 600 }} >
-            <img src=" https://images.unsplash.com/photo-1591430707267-d003a0cbfd16?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=933&q=80" 
-            style={{height:600, width: "100%", borderRadius: 10}}/>
-          </div>
-        </Card>
-      </CardGrid>
-    </Group>
+    <Group separator="hide" >
+        <CardGrid>
+          <Card size="l" mode="shadow">
+            <div >
+                <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+                src="https://i.imgur.com/7C0g5wW.png"/>
+                <Div>
+                <SimpleCell description="K-studio team · 2020" after={<Button>Подробнее</Button>}>
+                    <div style={{display: 'flex'}}>
+                      K-studio App 
+                      <Icon16Fire style={{marginTop: 4, marginLeft: 5}} fill="#F05C44"/> 
+                    </div>
+                  </SimpleCell>
+                    
+                </Div>
+            </div>
+          </Card>
+        </CardGrid>
+        </Group>
 
 		<Epic>
         <Tabbar>
