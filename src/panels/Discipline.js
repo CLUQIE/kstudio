@@ -19,21 +19,21 @@ const Discipline = ({ id, go}) => (
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
                 header="Frontend"
                 subheader="Роман Макуха"
-                actions={<Button onClick={go} data-to="frontend">Подробнее</Button>}
+                actions={<Button onClick={go} data-to="frontend" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}
             />
 
             <Banner
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
-                header="Web-designe"
+                header="Web-design"
                 subheader="Илья Гусаревич"
-                actions={<Button onClick={go} data-to="webdesigne">Подробнее</Button>}
+                actions={<Button onClick={go} data-to="webdesigne" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}
             />
 
             <Banner
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1588690154757-badf4644190f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80" />}
                 header="Android Dev (Kotlin)"
                 subheader="Сергей Меньков"
-                actions={<Button onClick={go} data-to="android">Подробнее</Button>}
+                actions={<Button onClick={go} data-to="android" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}
             />
 
             {/* <Banner

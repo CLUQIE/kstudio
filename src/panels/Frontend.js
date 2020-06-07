@@ -15,7 +15,7 @@ import roma from '../img/roma.jpg';
 
 const Frontend = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
-		<PanelHeader left={<PanelHeaderBack onClick={go} data-to="discipline"/>}>
+		<PanelHeader left={<PanelHeaderBack style={{color:"#F05C44"}} onClick={go} data-to="discipline"/>}>
 			K-studio
 		</PanelHeader>
 		

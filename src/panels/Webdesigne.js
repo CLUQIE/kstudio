@@ -20,7 +20,7 @@ const avatars = {
 
 const Webdesigne = ({ id, go}) => (
 	<Panel id={id}>
-		<PanelHeader left={<PanelHeaderBack onClick={go} data-to="discipline"/>}>
+		<PanelHeader left={<PanelHeaderBack  style={{color:"#F05C44"}} onClick={go} data-to="discipline"/>}>
 			K-studio
 		</PanelHeader>
 		
