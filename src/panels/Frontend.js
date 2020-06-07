@@ -11,6 +11,7 @@ import Icon28UserOutline from '@vkontakte/icons/dist/28/user_outline';
 
 
 import frontendimg from '../img/frontend.jpg';
+import roma from '../img/roma.jpg';
 
 const Frontend = ({ id, go, fetchedUser}) => (
 	<Panel id={id}>
@@ -48,12 +49,12 @@ const Frontend = ({ id, go, fetchedUser}) => (
             <Header mode="secondary">ПРЕПОДАВАТЕЛЬ</Header>
             <RichCell
              disabled
-             before={<Avatar size={72} src={fetchedUser.photo_200} />}
-             caption="Frontend разработчик студент 3 курса"
-             after={<Icon28UserOutline fill="#F84004"/>}
+             before={<Avatar style={{objectFit: 'cover'}} size={72} src={roma} />}
+             caption="Студент 2 курса"
+             after={<Icon28UserOutline fill="#F84004" />}
              
             >
-             Мирон Пузанов
+             Роман Макуха
              </RichCell>
             </Div>
           </Card>
