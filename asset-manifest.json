@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/kstudio/static/js/main.a8e04ab4.chunk.js",
-    "main.js.map": "/kstudio/static/js/main.a8e04ab4.chunk.js.map",
+    "main.js": "/kstudio/static/js/main.1dfb9782.chunk.js",
+    "main.js.map": "/kstudio/static/js/main.1dfb9782.chunk.js.map",
     "runtime-main.js": "/kstudio/static/js/runtime-main.4eee3255.js",
     "runtime-main.js.map": "/kstudio/static/js/runtime-main.4eee3255.js.map",
     "static/css/2.ad8c1e94.chunk.css": "/kstudio/static/css/2.ad8c1e94.chunk.css",
     "static/js/2.9bfa3076.chunk.js": "/kstudio/static/js/2.9bfa3076.chunk.js",
     "static/js/2.9bfa3076.chunk.js.map": "/kstudio/static/js/2.9bfa3076.chunk.js.map",
     "index.html": "/kstudio/index.html",
-    "precache-manifest.5906193cd9b3343d43170dd4061f619f.js": "/kstudio/precache-manifest.5906193cd9b3343d43170dd4061f619f.js",
+    "precache-manifest.83b188ce084c151c9fecd4b9d2706ba0.js": "/kstudio/precache-manifest.83b188ce084c151c9fecd4b9d2706ba0.js",
     "service-worker.js": "/kstudio/service-worker.js",
     "static/css/2.ad8c1e94.chunk.css.map": "/kstudio/static/css/2.ad8c1e94.chunk.css.map",
     "static/js/2.9bfa3076.chunk.js.LICENSE.txt": "/kstudio/static/js/2.9bfa3076.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.4eee3255.js",
     "static/css/2.ad8c1e94.chunk.css",
     "static/js/2.9bfa3076.chunk.js",
-    "static/js/main.a8e04ab4.chunk.js"
+    "static/js/main.1dfb9782.chunk.js"
   ]
 }
