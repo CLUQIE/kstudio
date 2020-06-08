@@ -11,6 +11,7 @@ import About from './panels/About';
 import Frontend from './panels/Frontend';
 import Webdesigne from './panels/Webdesigne';
 import Android from './panels/Android';
+import Kstudioapp from './panels/Kstudioapp';
 
 
 const ROUTES = {
@@ -20,7 +21,8 @@ const ROUTES = {
 	ABOUT: 'about',
 	FRONTEND: 'frontend',
 	WEBDESIGNE: 'webdesigne',
-	ANDROID: 'android'
+	ANDROID: 'android',
+	KSTUDIOAPP: 'kstudioapp'
 };
 
 const App = () => {
@@ -53,6 +55,7 @@ const App = () => {
 			<Frontend id='frontend' go={go} fetchedUser={fetchedUser}/>
 			<Webdesigne id='webdesigne' go={go}/>
 			<Android id='android' go={go}/>
+			<Kstudioapp id='kstudioapp' go={go}/>
 		</View>
 	);
 }

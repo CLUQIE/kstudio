@@ -23,7 +23,7 @@ const Project = ({ id, go}) => (
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
                 src="https://i.imgur.com/7C0g5wW.png"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2020" after={<Button onClick={go} data-to="kstudioapp" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
                       K-studio App 
                       <Icon16Fire style={{marginTop: 3, marginLeft: 5}} fill="#F05C44"/> 
