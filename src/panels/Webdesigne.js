@@ -56,13 +56,15 @@ const Webdesigne = ({ id, go}) => (
              before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilya']} />}
              caption={
                     <React.Fragment>
-                        нам пизда
+                        UX/UI Designer,
+                        <br />
+                        студент 3 курса
                     </React.Fragment>
                     }
              after={<Icon28UserOutline fill="#F84004" />}
              
             >
-             Хуй пойми кто
+             Илья Гусаревич
              </RichCell>
             </Div>
           </Card>

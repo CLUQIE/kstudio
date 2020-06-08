@@ -10,6 +10,8 @@ import Icon28ListOutline from '@vkontakte/icons/dist/28/list_outline';
 
 const avatars = {
     bestclub: 'https://sun9-36.userapi.com/c857624/v857624048/164b3d/so8KzpVkC7Q.jpg',
+    vkhack: 'https://sun9-24.userapi.com/c855720/v855720351/130f48/i9GutLAHES4.jpg',
+    mailhack: 'https://sun9-6.userapi.com/c851424/v851424502/ebe86/Lwrbb_lghMI.jpg'
    
 };
 
@@ -26,15 +28,30 @@ const Achievement = ({ id, go}) => (
               borderRadius: 10 }} >
                 <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['bestclub']} />
                 <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Лучшее студенческое <br/> объединение 2019 года</Text>
-                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 20}}>Подробнее</Button>
+                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button>
             </div>
           </Card>
         </CardGrid>
         <CardGrid>
           <Card size="l">
-          <Div style={{ height: 200 }} >
-
-          </Div>
+            <div style={{ 
+              height: 200,  
+              borderRadius: 10 }} >
+                <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['vkhack']} />
+                <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Победа на <br/> VK Hackathon 2019</Text>
+                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button>
+            </div>
+          </Card>
+        </CardGrid>
+        <CardGrid>
+          <Card size="l">
+            <div style={{ 
+              height: 200,  
+              borderRadius: 10 }} >
+                <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['mailhack']} />
+                <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Победа на <br/> IoT-Хакатон 2019</Text>
+                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button>
+            </div>
           </Card>
         </CardGrid>
       </Group>
