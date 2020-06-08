@@ -12,6 +12,11 @@ import Frontend from './panels/Frontend';
 import Webdesigne from './panels/Webdesigne';
 import Android from './panels/Android';
 import Kstudioapp from './panels/Kstudioapp';
+import Kstudioteam from './panels/Kstudioteam';
+import Kstudioserver from './panels/Kstudioserver';
+import Accelerator from './panels/Accelerator';
+import Teaclub from './panels/Teaclub';
+import Fusion from './panels/Fusion';
 
 
 const ROUTES = {
@@ -22,7 +27,12 @@ const ROUTES = {
 	FRONTEND: 'frontend',
 	WEBDESIGNE: 'webdesigne',
 	ANDROID: 'android',
-	KSTUDIOAPP: 'kstudioapp'
+	KSTUDIOAPP: 'kstudioapp',
+	KSTUDIOTEAM: 'kstudioteam',
+	KSTUDIOSERVER: 'kstudioserver',
+	ACCELERATOR: 'accelerator',
+	TEACLUB: 'teaclub',
+	FUSION: 'fusion'
 };
 
 const App = () => {
@@ -56,6 +66,11 @@ const App = () => {
 			<Webdesigne id='webdesigne' go={go}/>
 			<Android id='android' go={go}/>
 			<Kstudioapp id='kstudioapp' go={go}/>
+			<Kstudioteam id='kstudioteam' go={go}/>
+			<Kstudioserver id='kstudioserver' go={go}/>
+			<Accelerator id='accelerator' go={go}/>
+			<Teaclub id='teaclub' go={go}/>
+			<Fusion id='fusion' go={go}/>
 		</View>
 	);
 }

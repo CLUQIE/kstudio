@@ -21,7 +21,7 @@ const Project = ({ id, go}) => (
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
-                src="https://i.imgur.com/7C0g5wW.png"/>
+                src="https://i.imgur.com/pEgOoZE.png"/>
                 <Div>
                 <SimpleCell description="K-studio team · 2020" after={<Button onClick={go} data-to="kstudioapp" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
@@ -39,9 +39,9 @@ const Project = ({ id, go}) => (
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
-                src="https://i.imgur.com/UgbMtVT.png"/>
+                src="https://i.imgur.com/jTxiEB1.png"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2020" after={<Button onClick={go} data-to="kstudioteam" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
                       K-studio team 
                       <Icon16Fire style={{marginTop: 3, marginLeft: 5}} fill="#F05C44"/> 
@@ -57,9 +57,9 @@ const Project = ({ id, go}) => (
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
-                src="https://i.imgur.com/CJdt1fQ.png"/>
+                src="https://i.imgur.com/Ek3CwSb.png"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2020" after={<Button onClick={go} data-to="kstudioserver" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
                       K-studio Server 
                     </div>
@@ -76,7 +76,7 @@ const Project = ({ id, go}) => (
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
                 src="https://sun9-5.userapi.com/c858336/v858336273/18c6fc/rtNb-TKZ1EY.jpg"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2020" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2020" after={<Button onClick={go} data-to="accelerator" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
                       Акселератор
                     </div>
@@ -91,9 +91,9 @@ const Project = ({ id, go}) => (
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
-                src="https://sun9-58.userapi.com/c858416/v858416034/1b1ce0/D5tRB7lhD14.jpg"/>
+                src="https://i.imgur.com/gn54Chp.png"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2019" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2019" after={<Button onClick={go} data-to="teaclub" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
                       Чайный клуб
                     </div>
@@ -108,9 +108,9 @@ const Project = ({ id, go}) => (
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
-                src="https://sun9-61.userapi.com/c851036/v851036858/1ebd9e/nmVNARc-5sc.jpg"/>
+                src="https://i.imgur.com/mCFIBlL.png"/>
                 <Div>
-                <SimpleCell description="K-studio team · 2019" after={<Button style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
+                <SimpleCell description="K-studio team · 2019" after={<Button onClick={go} data-to="fusion" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}>
                     <div style={{display: 'flex'}}>
                       Fusion <br/> Киберспорт
                     </div>
