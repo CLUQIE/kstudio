@@ -20,7 +20,7 @@ const Fusion = ({ id, go}) => (
             <img style={{ width: 200, height: 200, display: 'flex', justifyContent: 'center', objectFit: 'cover', borderRadius: 20, marginTop: 100, marginBottom: 50}} src={avatars['fusion']}/>
             <Text style={{fontWeight: 600, fontSize: '14', width:'70%'}}>
             Fusion - Киберспортивная организация РГУ им. Косыгина от IT-клуба. <br/><br/>
-            <span style={{fontWeight: 500, color: '#818C99', fontSize: '14'}}>Разработчик : K-studio team, 2019</span>
+            <span style={{fontWeight: 500, color: '#818C99', fontSize: '14'}}>Разработчик : K-studio, 2019</span>
             </Text>
             <FixedLayout vertical="bottom" >
                 <Div>

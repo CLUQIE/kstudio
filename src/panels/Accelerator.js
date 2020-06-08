@@ -20,7 +20,7 @@ const Accelerator = ({ id, go}) => (
             <img style={{ width: 200, height: 200, display: 'flex', justifyContent: 'center', objectFit: 'cover', borderRadius: 20, marginTop: 100, marginBottom: 50}} src={avatars['accelerator']}/>
             <Text style={{fontWeight: 600, fontSize: '14', width:'70%'}}>
             Акселератор - социальный  институт поддержки стартапов внутри клуба с программой интенсивного развития через менторство, параллельно с продолжением обучения!  <br/><br/>
-            <span style={{fontWeight: 500, color: '#818C99', fontSize: '14'}}>Разработчик : K-studio team, 2020</span>
+            <span style={{fontWeight: 500, color: '#818C99', fontSize: '14'}}>Разработчик : K-studio, 2020</span>
             </Text>
             <FixedLayout vertical="bottom" >
                 <Div>
