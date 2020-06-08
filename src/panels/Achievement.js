@@ -24,8 +24,9 @@ const Achievement = ({ id, go}) => (
             <div style={{ 
               height: 200,  
               borderRadius: 10 }} >
-                <img style={{width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center'}} src={avatars['bestclub']} />
-                <Text> Лучшее студенческое объединение 2019 года</Text>
+                <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['bestclub']} />
+                <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Лучшее студенческое <br/> объединение 2019 года</Text>
+                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 20}}>Подробнее</Button>
             </div>
           </Card>
         </CardGrid>
