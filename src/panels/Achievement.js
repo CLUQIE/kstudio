@@ -33,7 +33,7 @@ const Achievement = ({ id, go}) => (
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
                         Лучшее студенческое объединение 2019 года
                     </Text>
-                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%'}}>Подробнее</Button>
+                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
                 </div>
             </div>
           </Card>
@@ -49,7 +49,7 @@ const Achievement = ({ id, go}) => (
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
                         Победа на VK Hackathon 2019
                     </Text>
-                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%'}}>Подробнее</Button>
+                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
                 </div>
             </div>
           </Card>
@@ -66,7 +66,7 @@ const Achievement = ({ id, go}) => (
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
                         Победа на IoT-Хакатон 2019
                     </Text>
-                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%'}}>Подробнее</Button>
+                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
                 </div>
             </div>
           </Card>
