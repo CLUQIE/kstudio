@@ -64,7 +64,7 @@ const About = ({ id, go, fetchedUser }) => (
         </RichCell>
 		<RichCell
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/marveloustwinkle'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['danila']} />}
           caption="Web-designer"
@@ -74,7 +74,7 @@ const About = ({ id, go, fetchedUser }) => (
         </RichCell>
 		<RichCell
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/augustlents'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['lilia']} />}
 		  caption={
@@ -90,7 +90,7 @@ const About = ({ id, go, fetchedUser }) => (
         </RichCell>
 		<RichCell
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/ilya.trifonov.official'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilyatrifonov']} />}
           caption={
@@ -106,7 +106,7 @@ const About = ({ id, go, fetchedUser }) => (
         </RichCell>
 		<RichCell
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/peacvild'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['polina']} />}
           caption={
@@ -121,8 +121,8 @@ const About = ({ id, go, fetchedUser }) => (
           Полина Вильдяева
         </RichCell>
 		<RichCell
-          disabled
-		  href={'https://vk.com/g0_0se'}
+          disabled 
+		  href={'https://vk.com/vasilyevavasilisa'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['vasya']} />}
           caption={
@@ -138,7 +138,7 @@ const About = ({ id, go, fetchedUser }) => (
         </RichCell>
 		<RichCell
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/dyuuuuuk'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['katya']} />}
           caption="Копирайтер"
@@ -148,7 +148,7 @@ const About = ({ id, go, fetchedUser }) => (
         </RichCell>
 		<RichCell
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/id214415158'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['roma']} />}
           caption={
@@ -164,7 +164,7 @@ const About = ({ id, go, fetchedUser }) => (
         </RichCell>
 		<RichCell
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/s.menk.java'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['sergey']} />}
 		  caption={
@@ -181,7 +181,7 @@ const About = ({ id, go, fetchedUser }) => (
 		<RichCell
 		  style={{marginBottom: '3%'}}
           disabled
-		  href={'https://vk.com/g0_0se'}
+		  href={'https://vk.com/angni_miska'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['edik']} />}
           caption={
