@@ -179,7 +179,7 @@ const About = ({ id, go, fetchedUser }) => (
           Сергей Меньков
         </RichCell>
 		<RichCell
-		  style={{marginBottom: '10%'}}
+		  style={{marginBottom: '15%'}}
           disabled
 		  href={'https://vk.com/g0_0se'}
           target="_blank"

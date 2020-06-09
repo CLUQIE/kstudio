@@ -18,7 +18,7 @@ const Fusion = ({ id, go}) => (
 		</PanelHeader>
 		<Div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
             <img style={{ width: 200, height: 200, display: 'flex', justifyContent: 'center', objectFit: 'cover', borderRadius: 20, marginTop: '10%', marginBottom: '5%'}} src={avatars['fusion']}/>
-            <Text style={{fontWeight: 600, fontSize: '14', width:'70%', marginBottom: '10%'}}>
+            <Text style={{fontWeight: 600, fontSize: '14', width:'70%', marginBottom: '15%'}}>
             Fusion - Киберспортивная организация РГУ им. Косыгина от IT-клуба. <br/><br/>
             <span style={{fontWeight: 500, color: '#818C99', fontSize: '14'}}>Разработчик : K-studio, 2019</span>
             </Text>

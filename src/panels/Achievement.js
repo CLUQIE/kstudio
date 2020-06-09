@@ -54,6 +54,25 @@ const Achievement = ({ id, go}) => (
             </div>
           </Card>
         </CardGrid>
+        <CardGrid
+        style={{marginBottom: '15%' }}>
+          <Card size="l">
+            <div style={{ 
+              height: 200,  
+              borderRadius: 10,
+              }} >
+                <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['mailhack']} />
+                {/* <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Победа на <br/> IoT-Хакатон 2019</Text>
+                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button> */}
+                <div style={{display: 'flex', justifyContent: 'space-between', position: 'absolute', bottom: 30, width: '100%'}}>
+                    <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
+                        Победа на IoT-Хакатон 2019
+                    </Text>
+                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%'}}>Подробнее</Button>
+                </div>
+            </div>
+          </Card>
+        </CardGrid>
       </Group>
 
 		<Epic>
