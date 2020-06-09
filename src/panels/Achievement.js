@@ -31,7 +31,7 @@ const Achievement = ({ id, go}) => (
                 <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['bestclub']} />
                 <div style={{display: 'flex', justifyContent: 'space-between', position: 'absolute', bottom: 30, width: '100%'}}>
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
-                        Лучшее студенческое объединение 2019 года
+                        Лучшее студенческое объединение 2019
                     </Text>
                     <Button style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
                 </div>
