@@ -1,7 +1,7 @@
 import React from 'react';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import { FixedLayout, Tabs, Group,RichCell, SimpleCell, Avatar, Select, Radio, FormLayoutGroup, Textarea, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
+import { Text, CardGrid, Group,RichCell, Card, Avatar, Div, Radio, FormLayoutGroup, Textarea, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
 import Icon36Users3Outline from '@vkontakte/icons/dist/36/users_3_outline';
 import Icon28FireOutline from '@vkontakte/icons/dist/28/fire_outline';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
@@ -179,7 +179,7 @@ const About = ({ id, go, fetchedUser }) => (
           Сергей Меньков
         </RichCell>
 		<RichCell
-		  style={{marginBottom: '15%'}}
+		  style={{marginBottom: '3%'}}
           disabled
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
@@ -193,8 +193,88 @@ const About = ({ id, go, fetchedUser }) => (
 		  >
           Эдуард Катиков
         </RichCell>
-	
+
+		<CardGrid
+		style={{marginBottom: '15%'}}>
+			<Card size="l" mode="shadow" style={{backgroundColor: '#F84004', height: 200, display:'flex', justifyContent:'center'}}>
+				<Text style={{fontWeight:600, fontSize:'20px', lineHeight:'24px', color: 'white',marginTop: '5%'}}>
+					Создатели приложения <br/> (Команда K-studio team)
+				</Text>
+			</Card>
+          	<Card size="l" mode="shadow" style={{backgroundColor: '#212121', marginTop: '-120px'}}>
+			<RichCell
+          		disabled
+         		target="_blank"
+          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['miron']} />}
+		  		caption={
+                    <React.Fragment>
+                        <span style={{color: '#F84004'}}>Fullstack</span>
+                    </React.Fragment>
+                    }
+		 	 >
+          	<span style={{color:'white'}}>Мирон Пузанов</span>
+       		</RichCell>
+
+			<RichCell
+          		disabled
+         		target="_blank"
+          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['danila']} />}
+		  		caption={
+                    <React.Fragment>
+                        <span style={{color: '#F84004'}}>UX/UI Designer</span>
+                    </React.Fragment>
+                    }
+		 	 >
+          	<span style={{color:'white'}}>Данила Линник</span>
+       		</RichCell>  
+			   
+			<RichCell
+          		disabled
+         		target="_blank"
+          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['polina']} />}
+		  		caption={
+                    <React.Fragment>
+                        <span style={{color: '#F84004'}}>Art Director</span>
+                    </React.Fragment>
+                    }
+		 	 >
+          	<span style={{color:'white'}}>Полина Вильдяева</span>
+       		</RichCell> 
+
+			<RichCell
+          		disabled
+         		target="_blank"
+          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilyatrifonov']} />}
+		  		caption={
+                    <React.Fragment>
+                        <span style={{color: '#F84004'}}>QA Director</span>
+                    </React.Fragment>
+                    }
+		 	 >
+          	<span style={{color:'white'}}>Илья Трифонов</span>
+       		</RichCell> 
+			<Div>
+			<Text style={{color:'white'}}>
+			“<span style={{color:'#F84004', fontWeight: '600'}}>K-studio App</span> - наше первое приложение,
+			которое было создано для участников IT-клуба, чтобы улучшить взаимодействие
+			с ними. Надеемся, наши пользователи
+			по достоинству оценят функциональность
+			нашего приложения, а также другим людям
+			станет интересен наш IT-клуб K-studio”
+			<br/><br/>
+			<div>
+				<span style={{marginLeft: '50%'}}>- Команда <span style={{color:'#F84004',fontWeight: '600'}}>K-studio team</span></span>
+			</div>
+			
+
+			</Text>
+			</Div>
+          	</Card>
+        </CardGrid>
 		</Group>
+
+
+
 		<Epic>
         <Tabbar>
 

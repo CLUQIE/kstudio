@@ -14,7 +14,7 @@ const Discipline = ({ id, go}) => (
 		</PanelHeader>
 
 
-		<Group style={{marginBottom: '20%'}} header={<Header mode="secondary"></Header>}>
+		<Group style={{marginBottom: '20%'}} header={<Header mode="secondary">Дисциплины 2019</Header>}>
             <Banner
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
                 header="Frontend"

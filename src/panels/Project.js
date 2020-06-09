@@ -17,7 +17,7 @@ const Project = ({ id, go}) => (
 
 
     <Group separator="hide" >
-        <CardGrid>
+        <CardGrid onClick={go} data-to="kstudioapp">
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
@@ -35,7 +35,7 @@ const Project = ({ id, go}) => (
           </Card>
         </CardGrid>
 
-        <CardGrid>
+        <CardGrid onClick={go} data-to="kstudioteam">
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
@@ -53,7 +53,7 @@ const Project = ({ id, go}) => (
           </Card>
         </CardGrid>
 
-        <CardGrid>
+        <CardGrid onClick={go} data-to="kstudioserver">
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
@@ -70,7 +70,7 @@ const Project = ({ id, go}) => (
           </Card>
         </CardGrid>
 
-        <CardGrid>
+        <CardGrid onClick={go} data-to="accelerator">
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
@@ -87,7 +87,7 @@ const Project = ({ id, go}) => (
           </Card>
         </CardGrid>
 
-        <CardGrid>
+        <CardGrid  onClick={go} data-to="teaclub">
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
@@ -104,7 +104,7 @@ const Project = ({ id, go}) => (
           </Card>
         </CardGrid>
         
-        <CardGrid style={{marginBottom: 100}}>
+        <CardGrid style={{marginBottom: 100}} onClick={go} data-to="fusion">
           <Card size="l" mode="shadow">
             <div >
                 <img style={{ height: 234, width:'100%', objectFit: 'cover', borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
