@@ -35,7 +35,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/mironpuzanov'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['miron']} />}
-          caption="Руководитель клуба, сооснаватель"
+		  caption={
+                    <React.Fragment>
+                        Руководитель клуба,
+						<br/>
+						сооснователь
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Мирон Пузанов
@@ -45,7 +51,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilya']} />}
-          caption="Преподаватель Web-design, сооснаватель"
+		  caption={
+                    <React.Fragment>
+                        Преподаватель Web-design,
+						<br/>
+						сооснователь
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Илья Гусаревич
@@ -65,7 +77,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['lilia']} />}
-          caption="Руководитель 'Чайного клуба'"
+		  caption={
+                    <React.Fragment>
+                        Руководитель 
+						<br/>
+						'Чайного клуба'
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Лилия Иванцова
@@ -75,7 +93,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilyatrifonov']} />}
-          caption="Руководитель медиа-подразделения"
+          caption={
+                    <React.Fragment>
+                        Руководитель 
+						<br/>
+						медиа-подразделения
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Илья Трифонов
@@ -85,7 +109,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['polina']} />}
-          caption="Оператор, копирайтер"
+          caption={
+                    <React.Fragment>
+                        Оператор,
+						<br/>
+						копирайтер
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Полина Вильдяева
@@ -95,7 +125,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['vasya']} />}
-          caption="Менеджер Instagram"
+          caption={
+                    <React.Fragment>
+                        Менеджер 
+						<br/>
+						Instagram
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Василилса Васильева
@@ -115,7 +151,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['roma']} />}
-          caption="Преподаватель Frontend"
+          caption={
+                    <React.Fragment>
+                        Преподаватель 
+						<br/>
+						Frontend
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Роман Макуха
@@ -125,7 +167,13 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['sergey']} />}
-          caption="Преподаватель Android Development"
+		  caption={
+                    <React.Fragment>
+                        Преподаватель 
+						<br/>
+						Android Development
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Сергей Меньков
@@ -136,7 +184,11 @@ const About = ({ id, go, fetchedUser }) => (
 		  href={'https://vk.com/g0_0se'}
           target="_blank"
           before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['edik']} />}
-          caption="Руководитель киберспортивного клуба 'Fusion'"
+          caption={
+                    <React.Fragment>
+                        Руководитель 'Fusion'
+                    </React.Fragment>
+                    }
 		  after={<Icon28UserOutline fill="#F84004" />}
 		  >
           Эдуард Катиков
