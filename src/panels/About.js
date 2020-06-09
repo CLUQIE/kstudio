@@ -260,10 +260,10 @@ const About = ({ id, go, fetchedUser }) => (
 			с ними. Надеемся, наши пользователи
 			по достоинству оценят функциональность
 			нашего приложения, а также другим людям
-			станет интересен наш IT-клуб K-studio”
+			станет интересен наш IT-клуб K-studio.”
 			<br/><br/>
 			<div>
-				<span style={{marginLeft: '50%'}}>- Команда <span style={{color:'#F84004',fontWeight: '600'}}>K-studio team</span></span>
+				<span style={{marginLeft: '35%'}}>- Команда <span style={{color:'#F84004',fontWeight: '600'}}>K-studio team</span></span>
 			</div>
 			
 
