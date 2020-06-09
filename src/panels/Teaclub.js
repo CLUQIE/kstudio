@@ -18,7 +18,7 @@ const Teaclub = ({ id, go}) => (
 		</PanelHeader>
 		<Div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
             <img style={{ width: 200, height: 200, display: 'flex', justifyContent: 'center', objectFit: 'cover', borderRadius: 20, marginTop: '10%', marginBottom: '5%'}} src={avatars['teaclub']}/>
-            <Text style={{fontWeight: 600, fontSize: '14', width:'70%',marginBottom: '15%'}}>
+            <Text style={{fontWeight: 600, fontSize: '14', width:'70%',marginBottom: '20%'}}>
             Чайный клуб - идеальный способ пообщаться об интересных вещах, узнать для себя нечто новое, в компании приятных людей за чашечкой чая.<br/><br/>
             <span style={{fontWeight: 500, color: '#818C99', fontSize: '14'}}>Разработчик : K-studio, 2019</span>
             </Text>

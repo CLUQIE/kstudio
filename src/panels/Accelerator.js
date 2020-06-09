@@ -18,7 +18,7 @@ const Accelerator = ({ id, go}) => (
 		</PanelHeader>
 		<Div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
             <img style={{ width: 200, height: 200, display: 'flex', justifyContent: 'center', objectFit: 'cover', borderRadius: 20, marginTop: '10%', marginBottom: '5%'}} src={avatars['accelerator']}/>
-            <Text style={{fontWeight: 600, fontSize: '14', width:'70%', marginBottom: '15%'}}>
+            <Text style={{fontWeight: 600, fontSize: '14', width:'70%', marginBottom: '20%'}}>
             Акселератор - социальный  институт поддержки стартапов внутри клуба с программой интенсивного развития через менторство, параллельно с продолжением обучения!  <br/><br/>
             <span style={{fontWeight: 500, color: '#818C99', fontSize: '14'}}>Разработчик : K-studio, 2020</span>
             </Text>

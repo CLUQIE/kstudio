@@ -21,14 +21,20 @@ const Achievement = ({ id, go}) => (
 			K-studio
 		</PanelHeader>
         <Group>
+
         <CardGrid>
           <Card size="l">
             <div style={{ 
               height: 200,  
-              borderRadius: 10 }} >
+              borderRadius: 10,
+              }} >
                 <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['bestclub']} />
-                <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Лучшее студенческое <br/> объединение 2019 года</Text>
-                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button>
+                <div style={{display: 'flex', justifyContent: 'space-between', position: 'absolute', bottom: 30, width: '100%'}}>
+                    <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
+                        Лучшее студенческое объединение 2019 года
+                    </Text>
+                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%'}}>Подробнее</Button>
+                </div>
             </div>
           </Card>
         </CardGrid>
@@ -36,34 +42,26 @@ const Achievement = ({ id, go}) => (
           <Card size="l">
             <div style={{ 
               height: 200,  
-              borderRadius: 10 }} >
+              borderRadius: 10,
+              }} >
                 <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['vkhack']} />
-                <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Победа на <br/> VK Hackathon 2019</Text>
-                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button>
-            </div>
-          </Card>
-        </CardGrid>
-        <CardGrid>
-          <Card size="l">
-            <div style={{ 
-              height: 200,  
-              borderRadius: 10 }} >
-                <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['mailhack']} />
-                <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Победа на <br/> IoT-Хакатон 2019</Text>
-                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button>
+                <div style={{display: 'flex', justifyContent: 'space-between', position: 'absolute', bottom: 30, width: '100%'}}>
+                    <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
+                        Победа на VK Hackathon 2019
+                    </Text>
+                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%'}}>Подробнее</Button>
+                </div>
             </div>
           </Card>
         </CardGrid>
         <CardGrid
-        style={{marginBottom: '15%' }}>
+        style={{marginBottom: '25%' }}>
           <Card size="l">
             <div style={{ 
               height: 200,  
               borderRadius: 10,
               }} >
                 <img style={{filter:'brightness(.5)', width: '100%', height: 200, borderRadius: 10, objectFit: 'cover', objectPosition: 'center', zIndex: 0}} src={avatars['mailhack']} />
-                {/* <Text style={{zIndex: 1, marginTop: '-65px', fontSize:17, color: 'white', fontWeight: 500, marginLeft: 20, lineHeight: '22px', position: 'absolute'}}> Победа на <br/> IoT-Хакатон 2019</Text>
-                <Button style={{backgroundColor:'#F05C44', position: 'absolute', right: 16, bottom: 25}}>Подробнее</Button> */}
                 <div style={{display: 'flex', justifyContent: 'space-between', position: 'absolute', bottom: 30, width: '100%'}}>
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
                         Победа на IoT-Хакатон 2019
