@@ -19,7 +19,7 @@ const Kstudioteam = ({ id, go}) => (
 			K-studio
 		</PanelHeader>
 		<Div style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', alignItems: 'center'}}>
-            <Text style={{display:'flex', marginTop:50, fontWeight: 600, fontSize: 11, color:'#F05C44'}}><Icon16Fire style={{marginTop: 2, marginRight: 5}} fill="#F05C44"/> НОВЫЙ ПРОЕКТ!</Text>
+            <Text style={{display:'flex', marginTop:'5%', fontWeight: 600, fontSize: 11, color:'#F05C44'}}><Icon16Fire style={{marginTop: 2, marginRight: 5}} fill="#F05C44"/> НОВЫЙ ПРОЕКТ!</Text>
             <img style={{ width: 200, height: 200, display: 'flex', justifyContent: 'center'}} src={avatars['kstudioteam']}/>
             <Text style={{fontWeight: 600, fontSize: '14', width:'70%'}}>
             K-studio team - новая команда перспективных разработчиков из K-studio, которые создают отличные продукты <br/>(да, даже это приложение).<br/><br/>

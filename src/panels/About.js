@@ -6,9 +6,21 @@ import Icon36Users3Outline from '@vkontakte/icons/dist/36/users_3_outline';
 import Icon28FireOutline from '@vkontakte/icons/dist/28/fire_outline';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
 import Icon28ListOutline from '@vkontakte/icons/dist/28/list_outline';
+import Icon28UserOutline from '@vkontakte/icons/dist/28/user_outline';
 
-
-import miron from '../img/miron.jpg';
+const avatars = {
+	miron: 'https://i.imgur.com/AcMnp85.jpg',
+	ilya: 'https://i.imgur.com/JrDsdE6.jpg',
+	lilia: 'https://i.imgur.com/2pvOIVx.jpg',
+	roma:'https://i.imgur.com/Z1RYxF9.jpg',
+	polina:'https://i.imgur.com/DM6Bie3.jpg',
+	sergey:'https://i.imgur.com/bhcIU6H.jpg',
+	vasya:'https://i.imgur.com/vSUNnQ5.jpg',
+	danila:'https://i.imgur.com/Borvi3F.jpg',
+	katya:'https://i.imgur.com/x4qrgrE.jpg',
+	ilyatrifonov: 'https://i.imgur.com/fXzGw90.jpg',
+	edik:'https://i.imgur.com/mLSPWoa.jpg'
+};
 
 
 const About = ({ id, go, fetchedUser }) => (
@@ -16,39 +28,121 @@ const About = ({ id, go, fetchedUser }) => (
 		<PanelHeader>
 			K-studio
 		</PanelHeader>
-		{fetchedUser && 
 		<Group>
 
-		<SimpleCell
-          description="Mail.ru Group"
-          before={<Avatar src={fetchedUser.photo_200}/>}
-        >
+		<RichCell
+          disabled
+		  href={'https://vk.com/mironpuzanov'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['miron']} />}
+          caption="Руководитель клуба, сооснаватель"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
           Мирон Пузанов
-        </SimpleCell>
-
-
-		<SimpleCell
-          description="Mail.ru Group"
-          before={<Avatar src={fetchedUser.photo_200}/>}
-        >
-          Мирон Пузанов
-        </SimpleCell>
-
-		<SimpleCell
-          description="Mail.ru Group"
-          before={<Avatar src={fetchedUser.photo_200}/>}
-        >
-          Мирон Пузанов
-        </SimpleCell>
-
-		<SimpleCell
-          description="Mail.ru Group"
-          before={<Avatar src={fetchedUser.photo_200}/>}
-        >
-          Мирон Пузанов
-        </SimpleCell>
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilya']} />}
+          caption="Преподаватель Web-design, сооснаватель"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Илья Гусаревич
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['danila']} />}
+          caption="Web-designer"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Данила Линник
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['lilia']} />}
+          caption="Руководитель 'Чайного клуба'"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Лилия Иванцова
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilyatrifonov']} />}
+          caption="Руководитель медиа-подразделения"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Илья Трифонов
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['polina']} />}
+          caption="Оператор, копирайтер"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Полина Вильдяева
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['vasya']} />}
+          caption="Менеджер Instagram"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Василилса Васильева
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['katya']} />}
+          caption="Копирайтер"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Екатерина Дюкова
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['roma']} />}
+          caption="Преподаватель Frontend"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Роман Макуха
+        </RichCell>
+		<RichCell
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['sergey']} />}
+          caption="Преподаватель Android Development"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Сергей Меньков
+        </RichCell>
+		<RichCell
+		  style={{marginBottom: '10%'}}
+          disabled
+		  href={'https://vk.com/g0_0se'}
+          target="_blank"
+          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['edik']} />}
+          caption="Руководитель киберспортивного клуба 'Fusion'"
+		  after={<Icon28UserOutline fill="#F84004" />}
+		  >
+          Эдуард Катиков
+        </RichCell>
 	
-		</Group>}
+		</Group>
 		<Epic>
         <Tabbar>
 
