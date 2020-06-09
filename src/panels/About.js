@@ -262,8 +262,8 @@ const About = ({ id, go, fetchedUser }) => (
 			нашего приложения, а также другим людям
 			станет интересен наш IT-клуб K-studio.”
 			<br/><br/>
-			<div>
-				<span style={{marginLeft: '35%'}}>- Команда <span style={{color:'#F84004',fontWeight: '600'}}>K-studio team</span></span>
+			<div style={{display:'flex', justifyContent: 'flex-end'}}>
+				<span>- Команда <span style={{color:'#F84004',fontWeight: '600'}}>K-studio team</span></span>
 			</div>
 			
 
