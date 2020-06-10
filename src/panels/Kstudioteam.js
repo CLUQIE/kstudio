@@ -8,8 +8,7 @@ import Icon16Fire from '@vkontakte/icons/dist/16/fire';
 import frontendimg from '../img/frontend.jpg';
 
 const avatars = {
-    kstudioteam: 'https://i.imgur.com/jTxiEB1.png ',
-   
+    kstudioteam: 'https://i.imgur.com/jTxiEB1.png '
 };
   
 
@@ -28,7 +27,7 @@ const Kstudioteam = ({ id, go}) => (
             {/* style={{display: 'flex', justifyContent: 'center', width: '100%', outline: '1px solid black'}} */}
             <FixedLayout vertical="bottom" >
                 <Div>
-                <Button onClick={go} data-to="project" size="xl" vertical="bottom" style={{background:'#F05C44'}}>Отлично</Button>
+                <Button target="_blank" href={'https://vk.com/kstudioteam'} size="xl" vertical="bottom" style={{background:'#F05C44'}}>Подробнее</Button>
                 </Div>
             </FixedLayout>
         </Div>

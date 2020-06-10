@@ -14,15 +14,22 @@ const Discipline = ({ id, go}) => (
 		</PanelHeader>
 
 
-		<Group style={{marginBottom: '20%'}} header={<Header mode="secondary">Дисциплины 2019</Header>}>
+		<Group header={<Header mode="secondary">Дисциплины 2019</Header>}>
             <Banner
+                onClick={go} data-to="frontend"
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
                 header="Frontend"
-                subheader="Роман Макуха"
+                subheader={
+                    <React.Fragment>
+                        Мирон Пузанов <br/>
+                        Роман Макуха
+                    </React.Fragment>
+                    }
                 actions={<Button onClick={go} data-to="frontend" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}
             />
 
             <Banner
+                onClick={go} data-to="webdesigne"
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
                 header="Web-design"
                 subheader="Илья Гусаревич"
@@ -30,6 +37,7 @@ const Discipline = ({ id, go}) => (
             />
 
             <Banner
+                onClick={go} data-to="android"
                 before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1588690154757-badf4644190f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2167&q=80" />}
                 header="Android Dev (Kotlin)"
                 subheader="Сергей Меньков"
@@ -50,6 +58,28 @@ const Discipline = ({ id, go}) => (
                 subheader="Алексей Аксёнов"
                 actions={<Button>Подробнее</Button>}
             />   */}
+
+        </Group>
+        <Group style={{marginBottom: '20%'}} header={<Header mode="secondary">Дисциплины 2018</Header>}>
+            <Banner
+                onClick={go} data-to="frontendtwo"
+                before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1581276879432-15e50529f34b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
+                header="Frontend"
+                subheader={
+                    <React.Fragment>
+                        Мирон Пузанов
+                    </React.Fragment>
+                    }
+                actions={<Button onClick={go} data-to="frontendtwo" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}
+            />
+
+            <Banner
+                onClick={go} data-to="webdesigne"
+                before={<Avatar style={{objectFit: 'cover'}} size={96} mode="image" src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" />}
+                header="Web-design"
+                subheader="Илья Гусаревич"
+                actions={<Button onClick={go} data-to="webdesigne" style={{backgroundColor:'#F05C44'}}>Подробнее</Button>}
+            />
 
         </Group>
 

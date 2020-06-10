@@ -17,6 +17,9 @@ import Kstudioserver from './panels/Kstudioserver';
 import Accelerator from './panels/Accelerator';
 import Teaclub from './panels/Teaclub';
 import Fusion from './panels/Fusion';
+import Frontendtwo from './panels/Frontendtwo';
+import Squad from './panels/squad';
+import Creators from './panels/Creators';
 
 
 const ROUTES = {
@@ -32,7 +35,10 @@ const ROUTES = {
 	KSTUDIOSERVER: 'kstudioserver',
 	ACCELERATOR: 'accelerator',
 	TEACLUB: 'teaclub',
-	FUSION: 'fusion'
+	FUSION: 'fusion',
+	FRONTEND18: 'frontend18',
+	SQUAD: 'squad',
+	CREATORS: 'creators'
 };
 
 const App = () => {
@@ -71,6 +77,9 @@ const App = () => {
 			<Accelerator id='accelerator' go={go}/>
 			<Teaclub id='teaclub' go={go}/>
 			<Fusion id='fusion' go={go}/>
+			<Frontendtwo id='frontendtwo' go={go}/>
+			<Squad id='squad' go={go}/>
+			<Creators id='creators' go={go}/>
 		</View>
 	);
 }

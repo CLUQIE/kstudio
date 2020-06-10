@@ -1,12 +1,14 @@
 import React from 'react';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import { Text, CardGrid, Group,RichCell, Card, Avatar, Div, Radio, FormLayoutGroup, Textarea, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
+import { Text, CardGrid, Group,RichCell, Card, Avatar, Div, Radio, CellButton, Header, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
 import Icon36Users3Outline from '@vkontakte/icons/dist/36/users_3_outline';
 import Icon28FireOutline from '@vkontakte/icons/dist/28/fire_outline';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
 import Icon28ListOutline from '@vkontakte/icons/dist/28/list_outline';
 import Icon28UserOutline from '@vkontakte/icons/dist/28/user_outline';
+import Icon28Users3Outline from '@vkontakte/icons/dist/28/users_3_outline';
+import Icon28MagicWandOutline from '@vkontakte/icons/dist/28/magic_wand_outline';
 
 const avatars = {
 	miron: 'https://i.imgur.com/AcMnp85.jpg',
@@ -30,247 +32,23 @@ const About = ({ id, go, fetchedUser }) => (
 		</PanelHeader>
 		<Group>
 
-		<RichCell
-          disabled
-		  href={'https://vk.com/mironpuzanov'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['miron']} />}
-		  caption={
-                    <React.Fragment>
-                        Руководитель клуба,
-						<br/>
-						сооснователь
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Мирон Пузанов
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/g0_0se'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilya']} />}
-		  caption={
-                    <React.Fragment>
-                        Преподаватель Web-design,
-						<br/>
-						сооснователь
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Илья Гусаревич
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/marveloustwinkle'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['danila']} />}
-          caption="Web-designer"
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Данила Линник
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/augustlents'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['lilia']} />}
-		  caption={
-                    <React.Fragment>
-                        Руководитель 
-						<br/>
-						'Чайного клуба'
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Лилия Иванцова
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/ilya.trifonov.official'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilyatrifonov']} />}
-          caption={
-                    <React.Fragment>
-                        Руководитель 
-						<br/>
-						медиа-подразделения
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Илья Трифонов
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/peacvild'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['polina']} />}
-          caption={
-                    <React.Fragment>
-                        Оператор,
-						<br/>
-						копирайтер
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Полина Вильдяева
-        </RichCell>
-		<RichCell
-          disabled 
-		  href={'https://vk.com/vasilyevavasilisa'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['vasya']} />}
-          caption={
-                    <React.Fragment>
-                        Менеджер 
-						<br/>
-						Instagram
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Василилса Васильева
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/dyuuuuuk'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['katya']} />}
-          caption="Копирайтер"
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Екатерина Дюкова
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/id214415158'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['roma']} />}
-          caption={
-                    <React.Fragment>
-                        Преподаватель 
-						<br/>
-						Frontend
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Роман Макуха
-        </RichCell>
-		<RichCell
-          disabled
-		  href={'https://vk.com/s.menk.java'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['sergey']} />}
-		  caption={
-                    <React.Fragment>
-                        Преподаватель 
-						<br/>
-						Android Development
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Сергей Меньков
-        </RichCell>
-		<RichCell
-		  style={{marginBottom: '3%'}}
-          disabled
-		  href={'https://vk.com/angni_miska'}
-          target="_blank"
-          before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['edik']} />}
-          caption={
-                    <React.Fragment>
-                        Руководитель 'Fusion'
-                    </React.Fragment>
-                    }
-		  after={<Icon28UserOutline fill="#F84004" />}
-		  >
-          Эдуард Катиков
-        </RichCell>
-
-		<CardGrid
-		style={{marginBottom: '15%'}}>
-			<Card size="l" mode="shadow" style={{backgroundColor: '#F84004', height: 200, display:'flex', justifyContent:'center'}}>
-				<Text style={{fontWeight:600, fontSize:'20px', lineHeight:'24px', color: 'white',marginTop: '5%'}}>
-					Создатели приложения <br/> (Команда K-studio team)
-				</Text>
-			</Card>
-          	<Card size="l" mode="shadow" style={{backgroundColor: '#212121', marginTop: '-120px'}}>
-			<RichCell
-          		disabled
-         		target="_blank"
-          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['miron']} />}
-		  		caption={
-                    <React.Fragment>
-                        <span style={{color: '#F84004'}}>Fullstack</span>
-                    </React.Fragment>
-                    }
-		 	 >
-          	<span style={{color:'white'}}>Мирон Пузанов</span>
-       		</RichCell>
-
-			<RichCell
-          		disabled
-         		target="_blank"
-          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['danila']} />}
-		  		caption={
-                    <React.Fragment>
-                        <span style={{color: '#F84004'}}>UX/UI Designer</span>
-                    </React.Fragment>
-                    }
-		 	 >
-          	<span style={{color:'white'}}>Данила Линник</span>
-       		</RichCell>  
-			   
-			<RichCell
-          		disabled
-         		target="_blank"
-          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['polina']} />}
-		  		caption={
-                    <React.Fragment>
-                        <span style={{color: '#F84004'}}>Art Director</span>
-                    </React.Fragment>
-                    }
-		 	 >
-          	<span style={{color:'white'}}>Полина Вильдяева</span>
-       		</RichCell> 
-
-			<RichCell
-          		disabled
-         		target="_blank"
-          		before={<Avatar style={{objectFit: 'cover'}} size={72} src={avatars['ilyatrifonov']} />}
-		  		caption={
-                    <React.Fragment>
-                        <span style={{color: '#F84004'}}>QA Director</span>
-                    </React.Fragment>
-                    }
-		 	 >
-          	<span style={{color:'white'}}>Илья Трифонов</span>
-       		</RichCell> 
-			<Div>
-			<Text style={{color:'white'}}>
-			“<span style={{color:'#F84004', fontWeight: '600'}}>K-studio App</span> - наше первое приложение,
-			которое было создано для участников IT-клуба, чтобы улучшить взаимодействие
-			с ними. Надеемся, наши пользователи
-			по достоинству оценят функциональность
-			нашего приложения, а также другим людям
-			станет интересен наш IT-клуб K-studio.”
-			<br/><br/>
-			<div style={{display:'flex', justifyContent: 'flex-end'}}>
-				<span>- Команда <span style={{color:'#F84004',fontWeight: '600'}}>K-studio team</span></span>
-			</div>
-			
-
+		<Div>
+			<Text>
+			Здесь должен быть невероятный текст о том, как мы забрали умирающий клуб на 1 курсе и вызродили его во втором семестре. Как мы преподавали для 3 человек, потому
+			что нам это было интересно и мы хотели развиваться в этом, о том, как мы собрали более 100 людей на первом собрании клуба на 2 курсе и как мы стали самым лучшим
+			студенческим объединением 2019 года в университете. Но здесь будет просто текст, для того, чтобы заполнить пространство и посмотреть, как он будет смотреться на 
+			разных телефонах, а то все полетит не знаю куда и получиться плохое приложениие сделанное за 5 дней. Люблю
 			</Text>
-			</Div>
-          	</Card>
-        </CardGrid>
+		</Div>
+
+		<Group>
+      		<CellButton before={<Icon28Users3Outline/>} onClick={go} data-to="squad">Состав K-studio</CellButton>
+    	</Group>
+
+		<Group>
+      		<CellButton before={<Icon28MagicWandOutline />} onClick={go} data-to="creators">Создатели приложения</CellButton>
+    	</Group>
+
 		</Group>
 
 

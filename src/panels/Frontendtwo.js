@@ -26,14 +26,13 @@ const avatars = {
 	edik:'https://i.imgur.com/mLSPWoa.jpg'
 };
 
-const Frontend = ({ id, go, fetchedUser}) => (
+const Frontendtwo = ({ id, go}) => (
 	<Panel id={id}>
 		<PanelHeader left={<PanelHeaderBack style={{color:"#F05C44"}} onClick={go} data-to="discipline"/>}>
 			K-studio
 		</PanelHeader>
 		
 
-        {fetchedUser && 
         <Group>
         <Group separator="hide" >
         <CardGrid>
@@ -77,23 +76,6 @@ const Frontend = ({ id, go, fetchedUser}) => (
             >
              Мирон Пузанов
              </RichCell>
-            <RichCell
-             href={'https://vk.com/id' + 214415158}
-             target="_blank"
-             disabled
-             before={<Avatar style={{objectFit: 'cover'}} size={72} src={roma} />}
-             caption={
-                    <React.Fragment>
-                        Frontend-разработчик, 
-                        <br />
-                        студент 2 курса
-                    </React.Fragment>
-                    }
-             after={<Icon28UserOutline fill="#F84004" />}
-             
-            >
-             Роман Макуха
-             </RichCell>
             </Div>
           </Card>
         </CardGrid>
@@ -120,7 +102,7 @@ const Frontend = ({ id, go, fetchedUser}) => (
         </CardGrid>
         </Group>
 
-        </Group>}
+        </Group>
 
 		<Epic>
         <Tabbar>
@@ -149,4 +131,4 @@ const Frontend = ({ id, go, fetchedUser}) => (
 
 
 
-export default Frontend;
+export default Frontendtwo;

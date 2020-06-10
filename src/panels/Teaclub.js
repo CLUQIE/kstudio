@@ -24,7 +24,7 @@ const Teaclub = ({ id, go}) => (
             </Text>
             <FixedLayout vertical="bottom" >
                 <Div>
-                <Button onClick={go} data-to="project" size="xl" vertical="bottom" style={{background:'#F05C44'}}>Отлично</Button>
+                <Button target="_blank" href={'https://vk.com/teaclubrsu'} size="xl" vertical="bottom" style={{background:'#F05C44'}}>Подробнее</Button>
                 </Div>
             </FixedLayout>
         </Div>
