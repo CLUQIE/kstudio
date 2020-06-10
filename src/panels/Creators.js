@@ -30,7 +30,7 @@ const Creators = ({ id, go, fetchedUser }) => (
 		<PanelHeader left={<PanelHeaderBack style={{color:"#F05C44"}} onClick={go} data-to="about"/>}>
 			K-studio
 		</PanelHeader>
-		<Group header={<Header mode="secondary">Состав K-studio</Header>}>
+		<Group style={{marginBottom: '20%'}}>
 
 
 
