@@ -22,7 +22,7 @@ const Achievement = ({ id, go}) => (
 		</PanelHeader>
         <Group>
 
-        <CardGrid>
+        <CardGrid onClick={go} data-to="bestclub">
           <Card size="l">
             <div style={{ 
               height: 200,  
@@ -33,12 +33,12 @@ const Achievement = ({ id, go}) => (
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
                         Лучшее студенческое объединение 2019
                     </Text>
-                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
+                    <Button onClick={go} data-to="bestclub" style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
                 </div>
             </div>
           </Card>
         </CardGrid>
-        <CardGrid>
+        <CardGrid onClick={go} data-to="vkhack">
           <Card size="l">
             <div style={{ 
               height: 200,  
@@ -49,12 +49,13 @@ const Achievement = ({ id, go}) => (
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
                         Победа на VK Hackathon 2019
                     </Text>
-                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
+                    <Button onClick={go} data-to="vkhack" style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
                 </div>
             </div>
           </Card>
         </CardGrid>
         <CardGrid
+        onClick={go} data-to="mailhack"
         style={{marginBottom: '25%' }}>
           <Card size="l">
             <div style={{ 
@@ -66,7 +67,7 @@ const Achievement = ({ id, go}) => (
                     <Text style={{fontSize:17, color: 'white', fontWeight: 500,lineHeight: '22px', marginLeft: '5%'}}>
                         Победа на IoT-Хакатон 2019
                     </Text>
-                    <Button style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
+                    <Button onClick={go} data-to="mailhack" style={{backgroundColor:'#F05C44', marginRight: '5%', height:'30px'}}>Подробнее</Button>
                 </div>
             </div>
           </Card>

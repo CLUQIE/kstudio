@@ -1,7 +1,7 @@
 import React from 'react';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import { FixedLayout, Tabs, TabsItem, Card,Group, FormLayout, Input, Select, Radio, FormLayoutGroup, Avatar, Epic, Tabbar, TabbarItem, Header, Banner, Button} from '@vkontakte/vkui';
+import { FixedLayout, Text, TabsItem, Card,Group, FormLayout, Input, Select, Radio, FormLayoutGroup, Avatar, Epic, Tabbar, TabbarItem, Header, Banner, Button} from '@vkontakte/vkui';
 import Icon36Users3Outline from '@vkontakte/icons/dist/36/users_3_outline';
 import Icon28FireOutline from '@vkontakte/icons/dist/28/fire_outline';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
@@ -13,6 +13,9 @@ const Discipline = ({ id, go}) => (
 			K-studio
 		</PanelHeader>
 
+        <Group header={<Header mode="secondary">Дисциплины 2020</Header>}>
+            <Text style={{color: 'grey', marginLeft: '2%'}}>Coming soon...</Text>
+        </Group>
 
 		<Group header={<Header mode="secondary">Дисциплины 2019</Header>}>
             <Banner

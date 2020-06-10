@@ -20,7 +20,9 @@ import Fusion from './panels/Fusion';
 import Frontendtwo from './panels/Frontendtwo';
 import Squad from './panels/squad';
 import Creators from './panels/Creators';
-
+import Bestclub from './panels/Bestclub';
+import Vkhack from './panels/Vkhack';
+import Mailhack from './panels/Mailhack';
 
 const ROUTES = {
 	DISCIPLINE: 'discipline',
@@ -38,7 +40,10 @@ const ROUTES = {
 	FUSION: 'fusion',
 	FRONTEND18: 'frontend18',
 	SQUAD: 'squad',
-	CREATORS: 'creators'
+	CREATORS: 'creators',
+	BESTCLUB: 'bestclub',
+	VKHACK: 'vkhack',
+	MAILHACK: 'mailhack'
 };
 
 const App = () => {
@@ -80,6 +85,9 @@ const App = () => {
 			<Frontendtwo id='frontendtwo' go={go}/>
 			<Squad id='squad' go={go}/>
 			<Creators id='creators' go={go}/>
+			<Bestclub id='bestclub' go={go}/>
+			<Vkhack id='vkhack' go={go}/>
+			<Mailhack id='mailhack' go={go}/>
 		</View>
 	);
 }
