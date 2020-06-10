@@ -1,7 +1,7 @@
 import React from 'react';
 import Panel from '@vkontakte/vkui/dist/components/Panel/Panel';
 import PanelHeader from '@vkontakte/vkui/dist/components/PanelHeader/PanelHeader';
-import { Button, Div, Text, Card,Group, CellButton, PanelHeaderBack, Banner, Radio, CardGrid, Header, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
+import { Footer, Div, Text, Card,Group, CellButton, PanelHeaderBack, Banner, Radio, CardGrid, Header, Epic, Tabbar, TabbarItem} from '@vkontakte/vkui';
 import Icon36Users3Outline from '@vkontakte/icons/dist/36/users_3_outline';
 import Icon28FireOutline from '@vkontakte/icons/dist/28/fire_outline';
 import Icon28ServicesOutline from '@vkontakte/icons/dist/28/services_outline';
@@ -45,11 +45,11 @@ const Bestclub = ({ id, go}) => (
          </Div>
          </Group>
 
-         <Group style={{marginBottom: '20%'}}>
+         <Group>
             <Div><Text style={{fontWeight: 500, fontSize: '16px', lineHeight: '20px'}}>Команда K-studio 2019 :</Text></Div>
-      		<CellButton before={<Icon28Users3Outline/>} onClick={go} data-to="squad">Состав K-studio</CellButton>
+      		<CellButton style={{color: '#F05C44'}} before={<Icon28Users3Outline/>} onClick={go} data-to="squad">Состав K-studio</CellButton>
          </Group>
-         
+         <Footer style={{marginBottom: '20%'}}>26.01.2019</Footer>
 
 
 		<Epic>

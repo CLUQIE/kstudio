@@ -43,11 +43,11 @@ const About = ({ id, go, fetchedUser }) => (
 		</Div>
 
 		<Group>
-      		<CellButton before={<Icon28Users3Outline/>} onClick={go} data-to="squad">Состав K-studio</CellButton>
+      		<CellButton style={{color: '#F05C44'}} before={<Icon28Users3Outline/>} onClick={go} data-to="squad">Состав K-studio</CellButton>
     	</Group>
 
 		<Group>
-      		<CellButton before={<Icon28MagicWandOutline />} onClick={go} data-to="creators">Создатели приложения</CellButton>
+      		<CellButton style={{color: '#F05C44'}} before={<Icon28MagicWandOutline />} onClick={go} data-to="creators">Создатели приложения</CellButton>
     	</Group>
 
 		</Group>

@@ -14,7 +14,7 @@ const Discipline = ({ id, go}) => (
 		</PanelHeader>
 
         <Group header={<Header mode="secondary">Дисциплины 2020</Header>}>
-            <Text style={{color: 'grey', marginLeft: '2%'}}>Coming soon...</Text>
+            <Text style={{color: 'grey', marginLeft: '3%'}}>Coming soon...</Text>
         </Group>
 
 		<Group header={<Header mode="secondary">Дисциплины 2019</Header>}>
